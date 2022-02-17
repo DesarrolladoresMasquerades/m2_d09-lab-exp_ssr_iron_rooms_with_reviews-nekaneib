@@ -1,0 +1,25 @@
+<h1>Edit room</h1>
+
+<form action="/rooms/create-room" method="POST" enctype="multipart/form-data">
+  <label>
+    Name
+    <input type="text" name="name" placeholder="room" />
+  </label>
+
+  <label>
+    description
+    <input type="text" name="description" />
+  </label>
+  
+  <label>
+    Image
+    <input type="file" name="imageUrl" />
+  </label>
+ 
+  <label>
+    Owner
+    <input type="text" name="owner" />
+  </label>
+
+  <button type="submit">Save changes</button>
+</form>
